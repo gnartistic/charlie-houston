@@ -1,3 +1,241 @@
+:root {
+    --primary-color:#f6f6f6;
+    --secondary-color:#000000;
+    --tertiary-color:#545454;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    color: blue;
+    color: var(--secondary-color);
+    font-family: 'Roboto Slab', serif;
+}
+
+/*HEADER/ nav BAR STYLES*/
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/*FOOTER STYLES*/
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+}
+
+footer img {
+    height: 150px;
+}
+
+/* STYLE ALL SECTIONS*/
+section {
+    padding: 60px;
+}
+
+/*HERO STYLES*/
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-subtitle {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #f6f6f6;
+    font-size: 18px;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    background-image: url('../assets/images/peakpx.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+/*HERP STYLES END*/
+
+/*SECTION TITLE STYLES*/
+.section-title {
+    font-size: 48px;
+    border-right: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0 auto 35px auto;    
+    width: 20%;
+}
+
+.primary-border {
+    border-color: var(--tertiary-color);
+}
+
+/*BIO STYLES*/
+.bio {
+    background: var(--primary-color);
+}
+.bio p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.section-titles {
+    float: left;
+}
+
+.section-content {
+    float: left;
+}
+.bio h4 {
+    line-height: 1.7;
+   color: var(--secondary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+/*PORTFOLIO STYLES*/
+.work p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.work h4 {
+    line-height: 1.7;
+   color: var(--secondary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+.work {
+    background: var(--primary-color);
+}
+
+/*CONTACT STYLES*/
+
+.contact {
+    background: var(--primary-color);
+}
+
+.contact p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contact h4 {
+    line-height: 1.7;
+   color: var(--secondary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contact ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
 }
