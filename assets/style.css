@@ -1,7 +1,7 @@
 :root {
-    --primary-color:#f6f6f6;
-    --secondary-color:#000000;
-    --tertiary-color:#545454;
+    --primary-color: #f6f6f6;
+    --secondary-color: #000000;
+    --tertiary-color: #545454;
 }
 
 * {
@@ -10,10 +10,7 @@
     padding: 0;
 }
 
-body {
-    color: var(--secondary-color);
-    font-family: 'Roboto Slab', serif;
-}
+
 
 /*HEADER/ nav BAR STYLES*/
 
@@ -65,49 +62,18 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/*FOOTER STYLES*/
-footer {
-    background: var(--primary-color);
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
-}
-
-footer img {
-    height: 150px;
-}
-
 /* STYLE ALL SECTIONS*/
 section {
     padding: 60px;
 }
 
 /*HERO STYLES*/
-.hero {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
 .hero-subtitle {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #f6f6f6;
-    font-size: 18px;
+    color: var(--primary-color);
+    font-size: 20px;
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -121,28 +87,44 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    padding: 60px;
 }
+
 /*HERP STYLES END*/
+
+/*MAIN*/
+main {
+    background-color: var(--primary-color);
+}
 
 /*SECTION TITLE STYLES*/
 .section-title {
     font-size: 48px;
-    border-right: 3px solid;
     color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: left;
-    margin: 0 auto 35px auto;    
+    margin: 0 auto 35px auto;
     width: 20%;
+    display: flex;
+    float: left;
+
 }
 
-.primary-border {
+.vert-line {
+    border-left: 3px solid;
     border-color: var(--tertiary-color);
+    position: absolute;
+    left: 25%;
+    padding-left: 10px;
+    height: 100px;
 }
 
 /*BIO STYLES*/
 .bio {
     background: var(--primary-color);
+    margin-bottom: 150px;
 }
+
 .bio p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -152,20 +134,14 @@ section {
     text-align: left;
 }
 
-.section-titles {
-    float: left;
-}
-
-.section-content {
-    float: left;
-}
 .bio h4 {
     line-height: 1.7;
-   color: var(--secondary-color);
+    color: var(--secondary-color);
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
     text-align: left;
+
 }
 
 /*PORTFOLIO STYLES*/
@@ -180,14 +156,16 @@ section {
 
 .work h4 {
     line-height: 1.7;
-   color: var(--secondary-color);
+    color: var(--secondary-color);
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
     text-align: left;
 }
+
 .work {
     background: var(--primary-color);
+    margin-bottom: 150px;
 }
 
 /*CONTACT STYLES*/
@@ -207,35 +185,61 @@ section {
 
 .contact h4 {
     line-height: 1.7;
-   color: var(--secondary-color);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: left;
-}
-
-.contact ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-.contact a {
-    text-decoration: none;
     color: var(--secondary-color);
-    line-height: 1.7;
-    color: var(--tertiary-color);
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
     text-align: left;
 }
 
-.contact ul li a:hover {
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 30px;
+}
+
+.list li {
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.list li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
+}
+
+
+/*FOOTER STYLES*/
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    width: 100%;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 70px;
+}
+
+footer div {
+    line-height: 1.5;
+}
+
+footer img {
+    height: 150px;
+    margin-left: 70%;
+    margin-top: -100px;
 }
