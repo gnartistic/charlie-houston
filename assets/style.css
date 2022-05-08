@@ -122,7 +122,7 @@ main {
 /*BIO STYLES*/
 .bio {
     background: var(--primary-color);
-    margin-bottom: 150px;
+    margin: 0px 0 150px 0;
 }
 
 .bio p {
@@ -165,13 +165,14 @@ main {
 
 .work {
     background: var(--primary-color);
-    margin-bottom: 150px;
+    margin: 350px 0 150px 0;
 }
 
 /*CONTACT STYLES*/
 
 .contact {
     background: var(--primary-color);
+    margin: 350px 0 0px 0;
 }
 
 .contact p {
@@ -199,7 +200,7 @@ main {
 
 .list {
     list-style: none;
-    padding: 30px;
+    padding: 80px;
 }
 
 .list li {
@@ -224,7 +225,7 @@ main {
 /*FOOTER STYLES*/
 footer {
     background: var(--primary-color);
-    padding: 40px 35px;
+    padding: 150px 35px;
     width: 100%;
 }
 
@@ -239,7 +240,7 @@ footer div {
 }
 
 footer img {
-    height: 150px;
-    margin-left: 70%;
+    height: 250px;
+    margin-left: 50%;
     margin-top: -100px;
 }
