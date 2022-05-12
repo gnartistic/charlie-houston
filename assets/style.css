@@ -12,16 +12,15 @@
 /*HEADER/ nav BAR STYLES*/
 
 header {
-    padding: 20px 35px;
+    padding: 4.55vw 4.55vw;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: 80%;
     z-index: 9999;
 }
@@ -29,7 +28,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 3.75vw;
     color: var(--primary-color);
 }
 
@@ -49,7 +48,8 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.75vw;
+    color: var(--tertiary-color);
 }
 
 header nav ul li a:hover {
@@ -71,7 +71,7 @@ section {
     text-align: right;
     margin: 5.5%;
     color: var(--primary-color);
-    font-size: 50px;
+    font-size: 6.55vw;
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -85,7 +85,7 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    padding: 60px;
+    padding: 70px;
 }
 
 /*HERP STYLES END*/
@@ -99,7 +99,7 @@ main {
 .section-title {
     font-size: 3.55vw;
     color: var(--secondary-color);
-    padding-bottom: 20px;
+    padding-bottom: 2vw;
     display: inline-block;
     text-align: left;
 }
@@ -107,6 +107,7 @@ main {
 .primary-border {
     border-color: var(--secondary-color);
     border-bottom: .55vw solid var(--tertiary-color);
+    width: 100%;
 }
 
 /*FLEX STYLES*/
@@ -117,7 +118,6 @@ main {
 .title {
     background: var(--primary-color);
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -133,45 +133,51 @@ main {
 
 .title img {
     width: 50%;
+    padding-left: 3.55vw;
 }
 
 /*BIO STYLES*/
 
 .bio-text {
-    padding: 25px;
+    padding: 2vw;
     line-height: 1.7;
 }
 
 .bio-text h3 {
     color: var(--secondary-color);
     font-size: 2.55vw;
-    margin-bottom: 150px;
-    border-bottom: .55vw solid var(--tertiary-color);
+    margin-bottom: 15vw;
+    padding-left: 3.55vw;
+    padding-top: 3.55vw;
 }
 
 .bio-text p {
     font-size: 2.55vw;
     color: var(--tertiary-color);
-    padding: 15px;
+    padding: 2vw;
 }
 
 /*PORTFOLIO STYLES*/
 .work-text {
-    padding: 25px;
+    padding: 2vw;
     line-height: 1.7;
 }
 
 .work-text h3 {
     color: var(--secondary-color);
     font-size: 2.55vw;
-    margin-bottom: 150px;
+    margin-bottom: 15vw;
+    padding-left: 3.55vw;
+    padding-top: 3.55vw;
 }
 
 .work-text p {
     font-size: 2.55vw;
     color: var(--tertiary-color);
-    padding: 15px;
+    padding: 5vw;
 }
+
+.work-text
 
 /*CONTACT STYLES*/
 .contact {
@@ -185,7 +191,8 @@ main {
 
 .list {
     list-style: none;
-    padding: 40px;
+    padding-left: 3.55vw;
+    padding-top: 3.55vw;
 }
 
 .list li {
@@ -196,12 +203,12 @@ main {
 
 .list li a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 .list li a:hover {
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
 }
