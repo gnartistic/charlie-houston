@@ -108,6 +108,7 @@ main {
     border-bottom: .55vw solid var(--tertiary-color);
     width: 100%;
 }
+
 .flex-row {
     display: flex;
 }
@@ -131,6 +132,7 @@ main {
 .title img {
     width: 70%;
 }
+
 /*flex box photo grid styles*/
 .container {
     display: flex;
