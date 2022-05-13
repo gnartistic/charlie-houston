@@ -62,7 +62,7 @@ header nav ul li a:hover {
 
 /* STYLE ALL SECTIONS*/
 section {
-    padding: 60px;
+    padding: 6vw;
 }
 
 /*HERO STYLES*/
@@ -84,9 +84,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding: 70px;
+    padding: 7vw;
 }
 
 /*HERP STYLES END*/
@@ -110,8 +108,6 @@ main {
     border-bottom: .55vw solid var(--tertiary-color);
     width: 100%;
 }
-
-/*FLEX STYLES*/
 .flex-row {
     display: flex;
 }
@@ -134,10 +130,16 @@ main {
 
 .title img {
     width: 70%;
-    padding: 3.55vw 3.55vw;
+}
+/*flex box photo grid styles*/
+.container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.item {
+    width: 50vw;
 }
 
 /*BIO STYLES*/
@@ -181,8 +183,6 @@ main {
     color: var(--tertiary-color);
     padding: 5vw;
 }
-
-.work-text
 
 /*CONTACT STYLES*/
 .contact {
