@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*HEADER/ nav BAR STYLES*/
 
 header {
@@ -48,7 +49,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2.75vw;
+    font-size: 2.55vw;
     color: var(--tertiary-color);
 }
 
@@ -132,8 +133,11 @@ main {
 }
 
 .title img {
-    width: 50%;
-    padding-left: 3.55vw;
+    width: 70%;
+    padding: 3.55vw 3.55vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /*BIO STYLES*/
@@ -156,6 +160,7 @@ main {
     color: var(--tertiary-color);
     padding: 2vw;
 }
+
 
 /*PORTFOLIO STYLES*/
 .work-text {
@@ -185,8 +190,9 @@ main {
     color: var(--secondary-color);
     font-size: 3.55vw;
 }
+
 .contact h2 {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .list {
@@ -196,9 +202,9 @@ main {
 }
 
 .list li {
-    display: inline-flex;
+    display: flex;
     font-size: 2.55vw;
-    padding: 10px;
+    padding: .55vw;
 }
 
 .list li a {
@@ -220,7 +226,7 @@ footer {
     padding: 150px 35px;
     width: 100%;
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
