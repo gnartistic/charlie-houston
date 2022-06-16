@@ -1,9 +1,3 @@
 p.indent {
     text-indent: 30px;
 }
-.hero {
-    background-image: url(/assets/images/peakpx.jpg);
-    background-size: cover;
-    display: flex;
-
-}
